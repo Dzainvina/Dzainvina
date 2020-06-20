@@ -40,7 +40,7 @@ else
 		echo "\e[96m[🚫]        \e[91mKAN UDAH GUE BILANG         \e[96m [🚫]\n";
 	        echo "\e[96m[🚫]              \e[91mKLIK ENTER AJA        \e[96m [🚫]\n";
 		echo "\e[96m[🚫]           \e[91mMASIH AJA NGEYEL LU      \e[96m [🚫]\n";
-	        echo "\e[96m[🚫] \e[91mBELOM PERNAH DICIPOK BENCONG YA LO \e[96m [🚫]\n";
+	        echo "\e[96m[🚫] \e[91mBELOM PERNAH DICIPOK MONYET YA LO \e[96m [🚫]\n";
 		echo "\e[91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 goto login;
 }
@@ -136,7 +136,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         sleep(5);
         }
         sleep(15);
-        $boba09 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD0906"}');
+        $boba09 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"NEWMLBBJUN20"}');
         $messageboba09 = fetch_value($boba09,'"message":"','"');
         echo "\n".color("blue","# Message: ".$messageboba09);
         sleep(3);
