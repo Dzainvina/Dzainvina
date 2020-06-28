@@ -91,7 +91,7 @@ echo "\e[32;1m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
         echo color("green","+] your access id : ".$token."\n\n");
         save("token.txt",$token);
         echo color("red","\n▬▬▬▬▬▬▬▬▬▬▬▬* SAHRIL_TAMPAN *▬▬▬▬▬▬▬▬▬▬▬▬");
-        echo "\n".color("white","√ CLAIM THAMUZ");
+        echo "\n".color("white","√ DOUBLE KILL");
         echo "\n".color("blue","=> SANTUYYY... ");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
@@ -105,7 +105,7 @@ echo "\e[32;1m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
         }else{
         echo "\n".color("red","🔐▶️ Message: ".$message);
 	      gocar:
-        echo "\n".color("white","✓ CLAIM GRANGER");
+        echo "\n".color("white","✓ TRIPLE KILL");
         echo "\n".color("blue","=> NGUPI PAY.... ");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
@@ -119,7 +119,7 @@ echo "\e[32;1m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
         }else{
         echo "\n".color("red","🔐▶️ Message: ".$message);
         gofood:
-        echo "\n".color("white","√ CLAIM CHANG'E");
+        echo "\n".color("white","√ MANIAC");
         echo "\n".color("blue","=>NGOROKOK PAY...!!");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
@@ -128,7 +128,7 @@ echo "\e[32;1m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
         $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD2206"}');
         $message = fetch_value($code1,'"message":"','"');
         echo "\n".color("green","🔓▶️ Message: ".$message);
-        echo "\n".color("white","√ CLAIM BRUNO");
+        echo "\n".color("white","√ SAVAGE");
         echo "\n".color("blue","=>HARAP TENANG..");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
