@@ -6,7 +6,7 @@ echo "\e[96m_________________   WARNING !!!!!!!!  _________________ \n";
 echo "\e[96m                 JANGAN LUPA BERDOA\n";
 echo "\e[96m          SCRIPT INI GRATIS GA PERLU PAKE BPJS               \n";
 echo "\e[96m              WELLCOME : @merza_saputra1412               \n";
-echo "\e[96m                      083877576730                     \n";
+echo "\e[96m                Donasi aja ke panti asuhan                     \n";
 echo "\e[96m                    * MERZASAPUTRA *            \n";
 echo "\e[96m ********\e[95m".date('[d-m-Y] [H:i:s]')."\e[96m********\n";
 echo "\e[95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
