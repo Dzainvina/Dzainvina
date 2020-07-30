@@ -98,7 +98,7 @@ echo "\e[32;1m▬▬▬▬▬▬▬▬▬▬\e[31;1m ( subscribe YouTube Dzainvi
         echo "\n".color("blue","# SEGER BANGET ");
         for($a=1;$a<=3;$a++){
         echo color("purple",".");
-        sleep(30);
+        sleep(25);
         }
        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD2107"}');
         $message = fetch_value($code1,'"message":"','"');
@@ -138,7 +138,7 @@ echo "\e[32;1m▬▬▬▬▬▬▬▬▬▬\e[31;1m ( subscribe YouTube Dzainvi
         sleep(5);
         }
         sleep(15);
-        $boba09 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD2107"}');
+        $boba09 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"PAKEAMAN"}');
         $messageboba09 = fetch_value($boba09,'"message":"','"');
         echo "\n".color("blue","# Message: ".$messageboba09);
         sleep(3);
